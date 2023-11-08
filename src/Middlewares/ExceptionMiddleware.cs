@@ -1,8 +1,8 @@
-﻿using BE_Event_Project.Exceptions;
-using BE_Event_Project.Shared;
+﻿using Application_BE_Project.Exceptions;
+using Application_BE_Project.Shared;
 using System.Net;
 
-namespace BE_Event_Project.Middlewares;
+namespace Application_BE_Project.Middlewares;
 
 public class ExceptionMiddleware
 {

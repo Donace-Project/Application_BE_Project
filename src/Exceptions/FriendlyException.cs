@@ -1,4 +1,4 @@
-﻿namespace BE_Event_Project.Exceptions;
+﻿namespace Application_BE_Project.Exceptions;
 
 public class FriendlyException : Exception
 {

@@ -4,7 +4,7 @@
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<RootNamespace>BE_Event_Project</RootNamespace>
+		<RootNamespace>Application_BE_Project</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -27,6 +27,7 @@
   </ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Controllers\" />
 	  <Folder Include="Models\" />
 	  <Folder Include="Services\" />
 	</ItemGroup>

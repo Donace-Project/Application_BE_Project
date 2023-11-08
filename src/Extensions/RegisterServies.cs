@@ -1,12 +1,12 @@
 ﻿using System.Diagnostics;
 
-using BE_Event_Project.EntityFramework;
-using BE_Event_Project.Interfaces;
-using BE_Event_Project.Middlewares;
+using Application_BE_Project.EntityFramework;
+using Application_BE_Project.Interfaces;
+using Application_BE_Project.Middlewares;
 
 using EntityFramework.Repository;
 
-namespace BE_Event_Project.Extensions
+namespace Application_BE_Project.Extensions
 {
     public static class RegisterServies
     {

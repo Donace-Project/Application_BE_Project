@@ -1,6 +1,6 @@
-﻿using BE_Event_Project.Interfaces;
+﻿using Application_BE_Project.Interfaces;
 
-namespace BE_Event_Project.EntityFramework;
+namespace Application_BE_Project.EntityFramework;
 public class UnitOfWork : IUnitOfWork
 {
     private readonly AppDbContext _context;

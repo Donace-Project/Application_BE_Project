@@ -1,6 +1,6 @@
-﻿using BE_Event_Project.Entities;
+﻿using Application_BE_Project.Entities;
 
-namespace BE_Event_Project.Interfaces
+namespace Application_BE_Project.Interfaces
 {
     public interface IRepositoryBase<TEntity> where TEntity : BaseEntity
     {

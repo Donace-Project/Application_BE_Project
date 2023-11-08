@@ -1,4 +1,4 @@
-﻿namespace BE_Event_Project.Interfaces;
+﻿namespace Application_BE_Project.Interfaces;
 
 public interface IUnitOfWork
 {

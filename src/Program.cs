@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-using BE_Event_Project.Extensions;
+using Application_BE_Project.Extensions;
 
 using FirebaseAdmin;
 

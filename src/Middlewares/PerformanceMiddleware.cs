@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Controllers;
 using System.Diagnostics;
 
-namespace BE_Event_Project.Middlewares
+namespace Application_BE_Project.Middlewares
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
     public class PerformanceMiddleware : IMiddleware

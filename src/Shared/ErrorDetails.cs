@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Text.Json;
 
-namespace BE_Event_Project.Shared;
+namespace Application_BE_Project.Shared;
 
 public class ErrorDetails
 {

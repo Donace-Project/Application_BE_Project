@@ -1,6 +1,6 @@
-﻿using BE_Event_Project.Entities;
-using BE_Event_Project.EntityFramework;
-using BE_Event_Project.Interfaces;
+﻿using Application_BE_Project.Entities;
+using Application_BE_Project.EntityFramework;
+using Application_BE_Project.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityFramework.Repository

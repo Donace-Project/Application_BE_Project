@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
-namespace BE_Event_Project.EntityFramework;
+namespace Application_BE_Project.EntityFramework;
 
 public class AppDbContext : DbContext
 {

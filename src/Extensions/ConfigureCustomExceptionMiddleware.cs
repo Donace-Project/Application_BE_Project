@@ -1,6 +1,6 @@
-﻿using BE_Event_Project.Middlewares;
+﻿using Application_BE_Project.Middlewares;
 
-namespace BE_Event_Project.Extensions;
+namespace Application_BE_Project.Extensions;
 
 public static class ConfigureCustomMiddleware
 {

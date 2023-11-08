@@ -1,4 +1,4 @@
-﻿namespace BE_Event_Project.Entities;
+﻿namespace Application_BE_Project.Entities;
 
 public class BaseEntity
 {

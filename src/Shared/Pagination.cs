@@ -1,4 +1,4 @@
-﻿namespace BE_Event_Project.Shared
+﻿namespace Application_BE_Project.Shared
 {
     public class Pagination
     {
