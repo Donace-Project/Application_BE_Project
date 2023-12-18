@@ -15,10 +15,16 @@ namespace Application_BE_Project.Controllers
             _rabbitMQService = rabbitMQService;
         }
 
-        [HttpPost]
+        [HttpPost("Calendar/user-join")]
         public async Task TaskJoinCalendarAsync(JoinCalendarEto input)
         {
             await _rabbitMQService.PushRequestJoinCalendarAsync(input);
+        }
+
+        [HttpPost("Event/user-join")]
+        public async Task TaskJoinEventAsync(JoinEventEto input)
+        {
+            await _rabbitMQService.PushRequestJoinEventAsync(input);
         }
     }
 }
