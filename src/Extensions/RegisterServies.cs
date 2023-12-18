@@ -2,8 +2,9 @@
 
 using Application_BE_Project.EntityFramework;
 using Application_BE_Project.Interfaces;
+using Application_BE_Project.Interfaces.Services;
 using Application_BE_Project.Middlewares;
-
+using Application_BE_Project.Services;
 using EntityFramework.Repository;
 
 namespace Application_BE_Project.Extensions
@@ -22,6 +23,7 @@ namespace Application_BE_Project.Extensions
             services.AddSingleton<Stopwatch>();
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IRabbitMQService, RabbitMQService>();
 
             services.AddScoped(typeof(IRepositoryBase<>), typeof(RepositoryBase<>));
             return services;
